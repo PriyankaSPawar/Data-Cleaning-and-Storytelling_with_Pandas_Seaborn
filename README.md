@@ -12,6 +12,9 @@ To evaluate whether or not it’s beneficial to discount products.
 - Colab & Jupyter Notebook
 - Python: Pandas, Seaborn, Matplotlib
 
+## Project Contributors:
+Group of 3 peoples contributed in this project work.
+
 ## Main question
 
 **Are discounts beneficial for the company?**
@@ -46,11 +49,11 @@ To evaluate whether or not it’s beneficial to discount products.
     - Software Engineer, Lina, claims the issues have to do with wrong encodings and bad maintenance practices in our database
   
 ## Challenges :
-- There are no customer data, so we cannot comment on customer satisfaction or retention
-- Customer acquisition can be measured by the number of orders placed
-- Company growth may be measured by the increase in orders placed
-- The pros for discounts are based on long term benefits, so we need to assess the evolution of the entire period
-- Unclear how to assess whether the company is more regarded as a discounter
+- There are no customer data, so we cannot comment on customer satisfaction or retention.
+- Customer acquisition can be measured by the number of orders placed.
+- Company growth may be measured by the increase in orders placed.
+- The pros for discounts are based on long term benefits, so we need to assess the evolution of the entire period.
+- Unclear how to assess whether the company is more regarded as a discounter.
 
 ## Analysis questions to get started (Keep asking questions)
 - What is the time period that the dataset covers? (Priyanka)
@@ -76,6 +79,15 @@ To evaluate whether or not it’s beneficial to discount products.
     - discounts by product categories
     - discounts by brands 
 - `brands.csv` is not useful for the analysis but only used when visualizing the data with respect to the brand names
+
+## Data Cleaning
+The dataset underwent a rigorous cleaning process to ensure data integrity:
+
+**Corrupted Database:** Identified and addressed issues that affected the overall integrity of the database.
+**Incongruent Data:** Resolved inconsistencies, mismatched, and/or duplicate data.
+**Double Dots Numbers:** Rectified anomalies in numerical values, focusing on duplicated or irregular decimal points.
+**Data Quality Concerns:** Mitigated issues affecting the reliability and completeness of the dataset.
+
 
 ## Getting started
 1. Decide on a cleaned dataset to use from now on
@@ -106,6 +118,36 @@ To evaluate whether or not it’s beneficial to discount products.
 2. [Data Quality Assessment](https://colab.research.google.com/drive/1MgN8IDyB5M4i32cgYjQSSsLEkPEV87p2?usp=sharing)
 3. [Category Creation(Decided in a group)](https://colab.research.google.com/drive/13InWevrxR1wkZf08V0vD5x2pTJ7f9X92?usp=sharing)
 4. [Final Data Analysi(My Task)](https://colab.research.google.com/drive/1aekiUw5vvjATC5m_uNIjuuhWc21kRg5i?usp=sharing)
+
+
+## Recommendation for data management
+
+● Database Administrator, Khader, should fix currency encodings (commas and periods).
+● Software Engineer, Lina, should provide consistent currency formats.
+● Create a documentation of the database for the future.
+● Add customer reviews to database to allow analysis of customer satisfaction
+
+## Conclusion
+
+- Discounts have been beneficial
+- 1. Lower price products are discounted more than expensive products.
+  2. Customer behavior is stable over time.
+  3. Sales increased compared to the previous spring.
+     
+Limit discounts to special occasions, reduce discount on high-price products.
+
+## Some Snapshots of this Project :
+
+![Loss of revenue through discounts is small](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/717a3439-fb31-4279-95ff-0cb2659b4cef)
+![Lower price products are discounted more](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/4e591688-9f83-4ee4-b289-b9bc8daaed0c)
+![Revenue increased despite discounts](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/d97eade5-31c2-4502-9205-5363632fe739)![image](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/e4c2bd69-c725-4faf-a127-490e2f4164ae)
+![Product Categories Analyzed](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/16081410-5578-40e7-9dc1-07e6c291e681)
+![Difference in discount rate between 2017 and 2018](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/c46e814c-127d-462b-8508-4feed3878136)
+
+
+
+
+
 
 
 
