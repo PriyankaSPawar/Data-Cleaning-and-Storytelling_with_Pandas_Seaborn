@@ -138,7 +138,7 @@ Limit discounts to special occasions, reduce discount on high-price products.
 
 ## Some Snapshots of this Project :
 
-![Loss of revenue through discounts is small](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/717a3439-fb31-4279-95ff-0cb2659b4cef)
+![Loss of revenue through discounts is small](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/d6d9fee2-e58a-43f1-b94f-b8db3d817be2)
 ![Lower price products are discounted more](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/4e591688-9f83-4ee4-b289-b9bc8daaed0c)
 ![Revenue increased despite discounts](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/d97eade5-31c2-4502-9205-5363632fe739)![image](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/e4c2bd69-c725-4faf-a127-490e2f4164ae)
 ![Product Categories Analyzed](https://github.com/PriyankaSPawar/Data-Cleaning-and-Storytelling_with_Pandas_Seaborn/assets/168557945/16081410-5578-40e7-9dc1-07e6c291e681)
