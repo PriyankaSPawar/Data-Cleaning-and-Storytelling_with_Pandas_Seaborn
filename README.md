@@ -6,7 +6,13 @@ This is my second data project! I will keep working on Eniac —the e-commerce t
 ## Objective
 To evaluate whether or not it’s beneficial to discount products.
 
-# Main question
+## Skills & Tools :
+- Data Cleaning & Quality Assurance
+- Data Visualization & Storytelling
+- Colab & Jupyter Notebook
+- Python: Pandas, Seaborn, Matplotlib
+
+## Main question
 
 **Are discounts beneficial for the company?**
 
@@ -20,7 +26,7 @@ To evaluate whether or not it’s beneficial to discount products.
 - recent quarterly results showed an increase in orders placed, but decrease in the total revenue
 - positions the company in the quality segment, rather than competing to offer the lowest prices in the market
 
-# Business questions
+## Business questions
 
 🗃️ Categories (introduced on 2024-05-17)
 - How should products be classified into different categories to simplify reports and analysis?
@@ -39,21 +45,21 @@ To evaluate whether or not it’s beneficial to discount products.
     - Database Administrator, Khader, blames the buggy pipeline
     - Software Engineer, Lina, claims the issues have to do with wrong encodings and bad maintenance practices in our database
   
-# Challenges :
+## Challenges :
 - There are no customer data, so we cannot comment on customer satisfaction or retention
 - Customer acquisition can be measured by the number of orders placed
 - Company growth may be measured by the increase in orders placed
 - The pros for discounts are based on long term benefits, so we need to assess the evolution of the entire period
 - Unclear how to assess whether the company is more regarded as a discounter
 
-# Analysis questions to get started (Keep asking questions)
+## Analysis questions to get started (Keep asking questions)
 - What is the time period that the dataset covers? (Priyanka)
 - What is the overall revenue for that time? (Priyanka)
 - Are there seasonal patterns in the evolution of sales? (Sören)
 - What are the most sold products? (Sören)
 - What are the products that generate the most revenue? (Muhammad)
 
-# Data available
+## Data available
 - `orders.csv` is useful for
     - time periods of orders
     - frequency of orders
@@ -71,13 +77,13 @@ To evaluate whether or not it’s beneficial to discount products.
     - discounts by brands 
 - `brands.csv` is not useful for the analysis but only used when visualizing the data with respect to the brand names
 
-# Getting started
+## Getting started
 1. Decide on a cleaned dataset to use from now on
 2. Discounts are defined as the difference between `orderlines.unit_price` and `products.price`.
    Merge both tables and create a column that contains the discount.
    Drop the columns that we don't need.
 
-# Analysis for Presentation
+## Analysis for Presentation
 
 - Discount by category (are some product categories more discounted than others), maybe also over the course of time? 
 - Compare Jan/Feb 2018 to the months before Black Friday to see if the discounts "worked": Is there a substantial increase in orders/quantities/money per total order  
@@ -86,7 +92,20 @@ To evaluate whether or not it’s beneficial to discount products.
 - Is Eniac becoming a discounter: What is the distribution of product categories in recent sales (and how it changed over time)? Are small appliances more popular than expensive products like computers and smartphones?
 - *(Optional)* Customer satisfaction: difficult to assess, because there is no data like customer reviews (alternative: compare order state, e.g. how many have been completed versus cancelled or left in shopping cart)
 
+## Datasets :
+- `order_qu.csv` - quality controlled
+- `orderlines_qu.csv` - quality controlled
+- `products_cl.csv` - cleaned
+- `brands.csv` - original
+- `categories.csv` - newly created
 
+**Note** These files are available in the folders created in this repository.
+
+## Colab Files :
+1. [Data Cleaning](https://colab.research.google.com/drive/1aekiUw5vvjATC5m_uNIjuuhWc21kRg5i?usp=sharing)
+2. [Data Quality Assessment](https://colab.research.google.com/drive/1MgN8IDyB5M4i32cgYjQSSsLEkPEV87p2?usp=sharing)
+3. [Category Creation(Decided in a group)](https://colab.research.google.com/drive/13InWevrxR1wkZf08V0vD5x2pTJ7f9X92?usp=sharing)
+4. [Final Data Analysi(My Task)](https://colab.research.google.com/drive/1aekiUw5vvjATC5m_uNIjuuhWc21kRg5i?usp=sharing)
 
 
 
