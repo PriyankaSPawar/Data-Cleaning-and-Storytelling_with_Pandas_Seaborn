@@ -1,4 +1,4 @@
-# Data-Cleaning & Analysis withcPandas & Seaborn
+# Data-Cleaning & Analysis with Pandas & Seaborn
 
 ## DataScience Bootcamp Project 2 : WBS Coding School
 This is my second data project! I will keep working on Eniac —the e-commerce tech company— as a Data Analyst. This time I will work with internal data, which is messy and unformatted. The complexity of these tasks will require me to use **Pandas**(a Python library) & **Seaborn**.
